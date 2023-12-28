@@ -192,7 +192,7 @@ class _RealTimeLocationTrackerState extends State<RealTimeLocationTracker> {
                 onMapCreated: (controller) {
                   _controller = controller;
 
-                  Future.delayed(const Duration(seconds: 2))
+                  Future.delayed(const Duration(seconds: 3))
                       .then((value) => animateCamera());
                   //  animateCamera();
                 },
